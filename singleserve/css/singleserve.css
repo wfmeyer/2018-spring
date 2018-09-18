@@ -8,7 +8,7 @@
 {
 	width: 5vw;
 	height: 5vw;
-	background-color: white;
+	background-color: black;
 }	
 .nay:hover
 {
@@ -16,7 +16,7 @@
 }
 .yay:hover
 {
-	background-color: blue;
+	background-color: rgb(20, 20, 20);
 }
 *
 {
@@ -35,14 +35,17 @@ p
 }
 .winC
 {
+	font-family: 'Bungee Inline', cursive;
 	font-size: 3vw;
 	color: black;
+	margin: 0;
 	text-align: center;
 }
 body
 {
 	background-color: black;
 	margin: 0;
+	width: 100vw;
 }
 .container
 {
@@ -51,11 +54,25 @@ body
 }
 .text
 {
-	width: 30vw;
+	width: 33.3vw;
 }
 .loseC
 {
+	font-family: 'Bungee Inline', cursive;
 	font-size: 3vw;
+	margin: 0;
 	color: black;
+	text-align: center;
+}
+.btext
+{
+	width: 100vw;
+}
+.bC
+{
+	font-family: 'Bungee Inline', cursive;
+	font-size: 2vw;
+	color: white;
+	margin: 0;
 	text-align: center;
 }
