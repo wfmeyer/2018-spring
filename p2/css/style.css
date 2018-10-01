@@ -1,0 +1,30 @@
+*
+{
+	box-sizing: border-box;
+} 
+div
+{
+	float: left;
+}
+body
+{
+	background-color: black;
+}
+p
+{
+	margin: 100px, 35vw;
+	color: white;
+	text-align: left;
+	font-size: 20px;
+}
+.leftc
+{
+	width: 20vw;
+	height: 500px;
+}
+.contain
+{
+	height: 500px;
+	width: 60vw;
+	vertical-align: center;
+}
