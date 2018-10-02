@@ -15,12 +15,13 @@ p
 	margin: 100px, 100px;	
 	color: white;
 	text-align: left;
-	font-size: 20px;
+	font-size: 25px;
 	font-family: 'IM Fell English SC', serif;
 }
 a
 {
 	color: red;
+	font-size: 25px;
 	text-decoration: none;
 	font-family: 'IM Fell English SC', serif;
 }
