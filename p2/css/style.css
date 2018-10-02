@@ -16,19 +16,19 @@ p
 	color: white;
 	text-align: left;
 	font-size: 25px;
-	font-family: 'IM Fell English SC', serif;
+	font-family: 'Marcellus', serif;
 }
 a
 {
 	color: red;
 	font-size: 25px;
 	text-decoration: none;
-	font-family: 'IM Fell English SC', serif;
+	font-family: 'Marcellus', serif;
 }
 a:hover
 {
-	color: blue;
-	border-bottom: 5px solid blue;
+	color: red;
+	border-bottom: 5px solid red;
 }
 a:visited
 {
@@ -42,12 +42,17 @@ a:focus
 }
 .leftc
 {
-	width: 25vw;
+	width: 22vw;
 	height: 500px;
 }
 .contain
 {
 	height: 500px;
-	width: 50vw;
+	width: 56vw;
 	vertical-align: center;
+}
+.top
+{
+	width: 1200px;
+	height: 50px;
 }
