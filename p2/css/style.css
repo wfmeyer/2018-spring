@@ -29,6 +29,11 @@ a:hover
 	color: blue;
 	border-bottom: 5px solid blue;
 }
+a:visited
+{
+	text-decoration: none;
+	color: red;
+}
 .leftc
 {
 	width: 25vw;
