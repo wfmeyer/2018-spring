@@ -12,19 +12,31 @@ body
 }
 p
 {
-	margin: 100px, 35vw;
+	margin: 100px, 100px;	
 	color: white;
 	text-align: left;
 	font-size: 20px;
+	font-family: 'IM Fell English SC', serif;
+}
+a
+{
+	color: red;
+	text-decoration: none;
+	font-family: 'IM Fell English SC', serif;
+}
+a:hover
+{
+	color: blue;
+	border-bottom: 5px solid blue;
 }
 .leftc
 {
-	width: 20vw;
+	width: 25vw;
 	height: 500px;
 }
 .contain
 {
 	height: 500px;
-	width: 60vw;
+	width: 50vw;
 	vertical-align: center;
 }
