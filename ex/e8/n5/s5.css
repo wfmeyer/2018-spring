@@ -1,0 +1,63 @@
+body{margin: 0 30vw}
+p{}
+div{float: left;}
+
+.title
+{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 80px;
+	margin: 0;
+	text-transform: uppercase;
+	line-height: 1em;
+	text-align: center;
+}
+
+.by
+{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 50px;
+	margin: 0;
+	line-height: 1em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.chapter
+{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	text-align: center;
+}
+
+.text
+{
+	width: 40vw;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+}
+
+.tbox
+{
+	position: absolute;
+	height: 100vw;
+	width: 150px;
+	top: 50px;
+	left: 75px;
+}
+.t2box
+{
+	position: absolute;
+	top: 50px;
+	right: 75px;
+	width: 150px;
+	height: 100vw;
+}
+
+.pbox
+{
+	width: 40vw;
+}

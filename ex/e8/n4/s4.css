@@ -1,0 +1,62 @@
+body{  }
+div{float: left;}
+p{}
+
+.title
+{
+	font-family: 'Unica One', cursive;
+	font-size: 70px;
+	margin: 100px 0 0 0;
+	color: red;
+	transform: rotate(270deg);
+	position: absolute;
+	left: 0;
+	bottom: 200px;
+}
+
+.by
+{
+	font-family: 'Unica One', cursive;
+	font-size: 70px;
+	margin: 100px 0 0 0;
+	transform: rotate(270deg);
+	position: absolute;
+	left: 0;
+	bottom: 450px;
+
+}
+
+.chapter
+{
+	font-family: 'Unica One', cursive;
+	font-size: 30px;
+	transform: rotate(270deg);
+	margin: 0;
+	position: absolute;
+	bottom: 300px;
+	left: 0;
+}
+
+.text
+{
+	width: 500px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(100,100,100);
+}
+
+.tbox
+{
+	height: 100vh;
+	width: 200px;
+}
+
+.cbox
+{
+	height: 100vh;
+	width: 40px;
+}
+
+.pbox
+{
+
+}
