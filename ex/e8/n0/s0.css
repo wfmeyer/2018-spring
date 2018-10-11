@@ -1,0 +1,41 @@
+body
+{
+
+}
+div{float: left;}
+
+p
+{
+font-family: 'Chakra Petch', sans-serif;
+}
+
+.title
+{
+	text-align: center;
+}
+
+.by
+{
+	text-align: center;
+}
+
+.chapter
+{
+	text-align: center;
+
+}
+
+.text
+{
+	width: 500px;
+}
+
+.tbox
+{
+	width: 500px;
+}
+
+.pbox
+{
+	
+}

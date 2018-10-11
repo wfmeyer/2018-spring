@@ -1,0 +1,48 @@
+body
+{
+
+}
+
+p
+{
+
+}
+div
+{
+	float: left;
+}
+
+.title
+{
+	text-align: center;
+	font-size: 100px;
+}
+
+.by
+{
+	text-align: center;
+	font-size: 80px;
+}
+
+.chapter
+{
+	font-size: 40px;
+}
+
+.text
+{
+	width: 500px;
+}
+
+.tbox
+{
+	width: 500px;
+	height: 100px;
+
+}
+
+.pbox
+{
+	width: 500px;
+	height: 100px;	
+}

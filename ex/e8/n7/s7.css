@@ -1,0 +1,50 @@
+body
+{
+
+}
+div
+{
+	float: left;
+}
+
+p
+{
+	font-family: 'Mali', cursive;
+}
+
+.title
+{
+	font-weight: 700;
+	font-size: 50px;
+	margin: 0;
+}
+
+.by
+{
+	font-weight: 500;
+	font-size: 30px;
+	margin: 0;
+}
+
+.chapter
+{
+	font-weight: 400;
+}
+
+.text
+{
+	width: 19vw;
+	font-weight: 300;
+}
+
+.big
+{
+	width: 19vw;
+	height: 600px;
+}
+
+.lef
+{
+	width: 60vw;
+	height: 600px;
+}
