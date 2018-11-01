@@ -1,0 +1,167 @@
+.rule
+{
+	width: 100%;
+	margin: 0;
+	height: 5px;
+	background-color: black;
+}
+
+body
+{
+	margin: 0;
+}
+
+.logo
+{
+	max-width: 300px;
+}
+
+.title
+{
+	text-align: center;
+	font-size: 35px;
+}
+
+.logoC
+{
+	text-align: center;
+
+}
+.introC
+{
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+}
+
+
+
+.playerTop
+{
+	margin-left: 5%;
+	font-size: 25px;
+}
+.playerImg
+{
+	max-width: 100%;
+}
+.playerImgC
+{
+	text-align: center;
+}
+.playerTextC
+{
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+}
+.playerText
+{
+	font-size: 16px;
+}
+
+@media only screen and (min-width: 600px)
+{
+	body
+	{
+	}
+	.playerText
+	{
+		font-size: 18px;
+	}
+	.playerImg
+	{
+		max-width: 560px;
+	}
+	.introC
+	{
+	margin-left: 15%;
+	margin-right: 15%;
+	}
+}
+
+@media only screen and (min-width: 768px)
+{
+	body
+	{
+	}
+	.playerTop
+	{
+		margin-left: 15%
+	}
+	.playerTextC
+	{
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	
+}
+@media only screen and (min-width: 1024px)
+{
+	body
+	{
+	}
+	.player
+	{
+		width: 1000px;
+	}
+	.playerImgC
+	{
+		width: 560px;
+		height: 100%;
+		margin: 0;
+		float: left;
+		
+	}	
+	.playerTextC
+	{
+		width: 430px;
+		margin: 0;
+		height: 100%;
+		float: left;
+		margin-top: 0;
+	}
+	.playerImg
+	{
+		max-width: 500px;
+		margin-top: 25px;
+	}
+	.player
+	{
+
+		height: 750px;
+	}
+	.introC
+	{
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+}
+@media only screen and (min-width: 1100px)
+{
+	body
+	{
+	}
+	.player
+	{
+		margin-left: 50px;
+	}
+}
+@media only screen and (min-width: 1200px)
+{
+	body
+	{
+	}
+	.player
+	{
+		margin-left: 75px;
+	}
+}
+@media only screen and (min-width: 1300px)
+{
+	body
+	{
+	}
+	.player
+	{
+		margin-left: 125px;
+	}
+}
