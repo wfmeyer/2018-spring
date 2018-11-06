@@ -170,3 +170,74 @@ body
 		margin-left: 125px;
 	}
 }
+@media only screen and (min-width: 1400px)
+{
+	body
+	{
+	}
+	.player
+	{
+		margin-left: 150px;
+	}
+}
+@media only screen and (min-width: 1500px)
+{
+	body
+	{
+	}
+	.player
+	{
+		margin-left: 175px;
+	}
+}
+@media only screen and (min-width: 1600px)
+{
+	body
+	{
+	}
+	.player
+	{
+		margin-left: 200px;
+	}
+}
+@media only screen and (min-width: 1700px)
+{
+	body
+	{
+	}
+	.player
+	{
+		margin-left: 225px;
+	}
+}
+@media only screen and (min-width: 1800px)
+{
+	body
+	{
+	}
+	.player
+	{
+		margin-left: 250px;
+	}
+}
+@media only screen and (min-width: 1900px)
+{
+	body
+	{
+	}
+	.player
+	{
+		margin-left: 275px;
+	}
+}
+@media only screen and (min-width: 2000px)
+{
+	body
+	{
+	}
+	.player
+	{
+		margin-left: 300px;
+	}
+}
+
