@@ -1,0 +1,65 @@
+body
+{
+	margin: 0;
+}
+p
+{
+	color: black;
+	font-size: 40px;
+}
+.whitetext
+{
+	color: white;
+}
+.list
+{
+	margin-left: 20vw;
+}
+.title
+{
+	text-align: center;
+}
+.body1
+{
+	background-color: purple;
+}
+.body2
+{
+	background-color: black;
+}
+.body3
+{
+	background-color: red;
+}
+.body4
+{
+	background-color: blue;
+}
+.body5
+{
+	background-color: teal;
+}
+.text1
+{
+	color: purple;
+}
+.text2
+{
+	color: black;
+}
+.text3
+{
+	color: red;
+}
+.text4
+{
+	color: blue;
+}
+.text5
+{
+	color: teal;
+}
+*
+{
+	transition: all 1s ease;
+}
