@@ -1,23 +1,82 @@
-.nav
+ul
 {
-	float: left;
-	height: 40px;
-	width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
 }
-.lspace
+a
 {
-	float: left;
-	width: 20px;
-	height: 40px
+	color: white;
 }
-.button
+li 
 {
-	float: left;
-	width: 100px;
-	height: 40px;
-	border: 2px solid black;
+    float: left;
+    background-color: darkgrey;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+li:first-child 
+{
+    border-left: 1px solid black;
+    margin-left: 10px;
+}
 
+li a, .dropbtn
+{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
+li a:hover, .dropdown:hover .dropbtn 
+{
+    background-color: lightblue;
+}
+
+li.dropdown 
+{
+    display: inline-block;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: darkgrey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: lightblue;
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
+body
+{
+	background-color: black
+}
+
 *
 {
 	text-align: center;
@@ -27,8 +86,82 @@
 .title
 {
 	font-size: 50px;
+	color: white;
+}
+.title p
+{
+	margin-top: 40px;
 }
 .subtitle
 {
 	font-size: 30px;
+	color: white;
+}
+img
+{
+	height: 200px;
+	width: 200px;
+}
+.top
+{
+	height: 200px;
+}
+.spacer
+{
+	float: left;
+	width: 20vw;
+	height: 200px;
+}
+.lefttop
+{
+	float: left;
+	width: 30vw;
+	height: 200px;
+}
+.righttop
+{
+	float: left;
+	width: 30vw;
+	height: 200px;
+}
+iframe
+{
+	margin-top: 40px;
+}
+.container
+{
+	width: 98vw;
+}
+
+
+
+
+@media only screen and (max-width: 600px)
+{
+	body
+	{
+
+	}
+	.spacer
+	{
+		float: none;
+		width: 0px;
+		height: 0px;
+	}
+	.lefttop
+	{
+		float: none;
+		width: 98vw;
+		height: 100px;
+	}
+	.righttop
+	{
+		float: none;
+		width: 98vw;
+		height: 200px;
+	}
+	iframe
+	{
+		margin-top: 140px;
+	}
 }

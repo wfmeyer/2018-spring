@@ -1,56 +1,123 @@
-.nav
+ul
 {
-	float: left;
-	height: 40px;
-	width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
 }
-.lspace
+
+li 
 {
-	float: left;
-	width: 20px;
-	height: 40px
+    float: left;
+    background-color: darkgrey;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
-.button
+li:first-child 
 {
-	float: left;
-	width: 100px;
-	height: 40px;
-	border: 2px solid black;
-	text-align: center;
+    border-left: 1px solid black;
+    margin-left: 10px;
 }
+
+li a, .dropbtn
+{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn 
+{
+    background-color: lightblue;
+}
+
+li.dropdown 
+{
+    display: inline-block;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: darkgrey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: lightblue;
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
 *
 {
 	box-sizing: border-box;
 	margin: 0;
 }
+
+p
+{
+	color: white;
+}
+body
+{
+	background-color: black;
+}
+.container
+{
+	width: 98vw;
+}
 .header
 {
-	width: 100vw;
+	width: 98vw;
 	text-align: center;
+	margin-top: 20px;
 }
 .rule
 {
-	margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	height: 5px;
-	width: 100vw;
+	width: 98vw;
 }
 .siderule
 {
 	float: left;
+	background-color: black;
 	height: 5px;
-	width: 20vw;
+	width: 19vw;
 }
 .midrule
 {
 	float: left;
-	background-color: black;
+	background-color: lightblue;
 	height: 5px;
 	width: 60vw;
 }
 .song
 {
-	height: 60px;
-	width: 100vw;
+	height: 80px;
+	width: 98vw;
 }
 .songside
 {
@@ -77,4 +144,78 @@
 	width: 45vw;
 	height: 60px;
 	float: left;
+}
+
+
+
+
+@media only screen and (max-width: 1000px)
+{
+	.siderule
+	{
+		width: 14vw;
+	}
+	.midrule
+	{
+		width: 70vw;
+	}
+	.songside
+	{
+		width: 14vw;
+	}
+	.songt
+	{
+		width: 14vw;
+	}
+	.songa
+	{
+		width: 51vw;
+	}
+}
+@media only screen and (max-width: 700px)
+{
+	.siderule
+	{
+		width: 6vw;
+	}
+	.midrule
+	{
+		width: 86vw;
+	}
+	.songside
+	{
+		width: 6vw;
+	}
+	.divide
+	{
+		width: 0px;
+		height: 0px;
+	}
+	.songt
+	{
+		width: 98vw;
+		float: none;
+	}
+	.songa
+	{
+		width: 86vw;
+		float: none;
+		margin-left: 8vw;
+	}
+	.song
+	{
+		height: 200px
+	}
+}
+@media only screen and (max-width: 700px)
+{
+.siderule
+	{
+		width: 0px;
+	}
+	.midrule
+	{
+		width: 100vw;
+	}
+
 }
