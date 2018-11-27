@@ -1,0 +1,45 @@
+.nav
+{
+	float: left;
+	height: 40px;
+	width: 100vw;
+}
+.lspace
+{
+	float: left;
+	width: 20px;
+	height: 40px
+}
+.button
+{
+	float: left;
+	width: 100px;
+	height: 40px;
+	border: 2px solid black;
+	text-align: center;
+
+}
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+}
+.container
+{
+	height: 81vh;
+	width: 100vw;
+}
+.linkbox
+{
+	margin: 1vh 1vw;
+	float: left;
+	width: 23vw;
+	height: 25vh;
+	border: 2px solid black;
+	text-align: center; 
+}
+p
+{
+	margin-top: 8vh;
+	font-size: 40px;
+}
