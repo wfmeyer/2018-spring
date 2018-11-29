@@ -4,7 +4,7 @@ ul
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: darkgrey;
 }
 a
 {
@@ -89,10 +89,18 @@ body
 {
 	font-size: 50px;
 	color: white;
+
 }
 .title p
 {
 	margin-top: 40px;
+	text-align: left;
+
+}
+.subtitle p
+{
+	text-align: left;
+
 }
 .subtitle
 {
@@ -111,13 +119,13 @@ img
 .spacer
 {
 	float: left;
-	width: 20vw;
+	width: 25vw;
 	height: 200px;
 }
 .lefttop
 {
 	float: left;
-	width: 30vw;
+	width: 25vw;
 	height: 200px;
 }
 .righttop
@@ -166,4 +174,13 @@ iframe
 	{
 		margin-top: 140px;
 	}
+	.title p
+	{
+	text-align: center;
+}
+.subtitle p
+{
+	text-align: center;
+
+}
 }
