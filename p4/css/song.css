@@ -104,7 +104,7 @@ body
 }
 .subtitle
 {
-	font-size: 30px;
+	font-size: 20px;
 	color: white;
 }
 img
@@ -115,17 +115,18 @@ img
 .top
 {
 	height: 200px;
+	margin-top: 20px;
 }
 .spacer
 {
 	float: left;
-	width: 25vw;
+	width: 15vw;
 	height: 200px;
 }
 .lefttop
 {
 	float: left;
-	width: 25vw;
+	width: 40vw;
 	height: 200px;
 }
 .righttop
@@ -162,7 +163,7 @@ iframe
 	{
 		float: none;
 		width: 98vw;
-		height: 100px;
+		height: 150px;
 	}
 	.righttop
 	{
@@ -172,7 +173,7 @@ iframe
 	}
 	iframe
 	{
-		margin-top: 140px;
+		margin-top: 180px;
 	}
 	.title p
 	{

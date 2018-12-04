@@ -91,9 +91,12 @@ body
 }
 .header
 {
-	width: 98vw;
+	width: 86vw;
 	text-align: center;
 	margin-top: 20px;
+	font-size: 30px;
+	margin-left: 6vw;
+	margin-right: 6vw;
 }
 .rule
 {
@@ -118,7 +121,7 @@ body
 }
 .song
 {
-	height: 80px;
+	height: 120px;
 	width: 98vw;
 }
 .songside
@@ -143,7 +146,7 @@ body
 .songa
 {
 	text-align: left;
-	width: 45vw;
+	width: 40vw;
 	height: 60px;
 	float: left;
 }
